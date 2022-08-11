@@ -4,7 +4,7 @@ body{
     box-sizing: border-box;
     background-color: rgba(167, 180, 190, 0.5);
 }
-article{
+main{
    height: 1000px;
    width: 1440px;
    display: flex;
