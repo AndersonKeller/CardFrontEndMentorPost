@@ -1,0 +1,134 @@
+body{
+    Font-size: 13px;
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    box-sizing: border-box;
+    background-color: rgba(167, 180, 190, 0.5);
+}
+article{
+   height: 1000px;
+   width: 1440px;
+   display: flex;
+   align-items: center;
+   margin: 0 auto;
+   
+   
+}
+.section-l{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: space-around;
+    width: 70%;
+    height: 80%; 
+   
+}
+.post-div{
+    
+    height:100%;
+    margin: 0 auto;
+    padding: 0 30px;
+    box-shadow: 10px 5px 5px 5px #888888;
+    border-radius: 15px;
+}
+.post1{
+    width: 65%;
+    height: 45%;
+    background-color: hsl(263, 55%, 52%);
+    border-radius: 15px;
+}
+ h3{
+    color: white;
+    line-height: 35px;
+    font-size: 25px;
+    font-weight: 500;
+}
+.comment{
+    color: rgba(240, 248, 255,0.7);
+    line-height: 20px;
+   
+}
+.comment2{
+    color: rgba(0, 0, 0,0.5);
+    line-height: 25px;
+}
+.post2{
+    width: 30%;
+    height: 45%;
+    border-radius: 15px;
+    background-color: hsl(217, 19%, 35%);
+}
+.post3{
+    width: 30%;
+    height: 45%;
+    border-radius: 15px;
+    background-color: hsl(0, 0%, 100%);
+}
+.post3 h3{
+    color: rgb(0, 0, 0);
+    line-height: 35px;
+    font-size: 25px;
+    font-weight: 500;
+}
+.post3 .verified{
+    color: rgb(0, 0, 0);
+}
+.post3 .verified p{
+    color: rgba(0, 0, 0,0.5);
+}
+.post4{
+    width: 65%;
+    height: 45%;
+    background-color:  hsl(219, 29%, 14%);
+    border-radius: 15px;
+}
+.section-r{
+    width: 30%;
+    height: 80%;
+    margin: 0 auto;
+}
+.section-r .post-div{
+    height: 89%;
+    width: 70%;
+    padding: 25px;
+    line-height: 30px;
+    border-radius: 15px;
+    background-color: white;
+}
+.section-r .post-div h2{
+    color: black;
+}
+.section-r .post-div h3{
+    color: rgb(0, 0, 0);
+    font-size: 25px;
+    font-weight: 500;
+}
+.section-r .post-div p{
+    color: rgba(0, 0, 0,0.5);
+}
+
+.post-div img{
+    border-radius: 50%;
+    border: 2px solid hsl(263, 55%, 52%);
+    object-fit: cover;
+    display: inline;
+    margin-top: 25px;
+}
+.verified{
+    display: inline-block;
+    margin: 10px auto;
+    line-height: 5px;
+    padding: 10px;
+    color: rgb(240, 248, 255);
+}
+.verified p{
+    color: rgba(240, 248, 255,0.5);
+}
+    
+
+
+.attribution {
+     font-size: 11px; text-align: center;
+     }
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+}
