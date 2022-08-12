@@ -10,8 +10,9 @@ main{
    display: flex;
    align-items: center;
    margin: 0 auto;
-   
-   
+}
+h1{
+    font-size: 0px;
 }
 .section-l{
     display: flex;
@@ -19,11 +20,9 @@ main{
     align-items: flex-start;
     justify-content: space-around;
     width: 70%;
-    height: 80%; 
-   
+    height: 80%;  
 }
 .post-div{
-    
     height:100%;
     margin: 0 auto;
     padding: 0 30px;
